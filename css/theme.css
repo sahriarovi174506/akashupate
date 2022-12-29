@@ -1009,6 +1009,9 @@ img {
 .team_img img {
   width: 100px !important;
 }
+.team_info_show .team_img img {
+  width: 100% !important;
+}
 .teambox {
   display: flex;
   justify-content: center;
