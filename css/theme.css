@@ -1010,7 +1010,7 @@ img {
   width: 100px !important;
 }
 .team_info_show .team_img img {
-  width: 100% !important;
+  width: 200px !important;
 }
 .teambox {
   display: flex;
