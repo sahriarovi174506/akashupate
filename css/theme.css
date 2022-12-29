@@ -969,18 +969,16 @@ img {
 .team_btn h5 {
   margin: 0;
   font-size: 15px;
-  color: #ffffff;
-  background: #007bff;
+  color: #007bff;
   display: inline-block;
-  padding: 10px 25px;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
+  margin-top: 20px;
 }
 .team_btn h5:hover {
-  background: #fff;
-  color: #007bff;
-  box-shadow: 0px 0px 45px 1px rgb(0 0 0 / 20%);
+  color: #0e2085;
+  text-decoration: underline;
 }
 .person_info ul {
   display: grid;
@@ -1007,6 +1005,13 @@ img {
   z-index: 99999999999;
   transform: scale(1);
   overflow: auto;
+}
+.team_img img {
+  width: 100px !important;
+}
+.teambox {
+  display: flex;
+  justify-content: center;
 }
 .person_info ul li {
   display: grid;
