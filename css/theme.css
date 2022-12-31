@@ -753,9 +753,12 @@ img {
 .toggle_submenu .mobile_submenu {
   transition: 0.3s;
 }
+.submenu.mobile_submenu li:hover {
+    border-bottom: 2px solid #009de1;
+}
 .submenu.mobile_submenu li {
-  height: 40px;
-  background: aquamarine;
+    height: 40px;
+    background: #ffffff;
 }
 .mobile_nav ul#menu li a {
   font-size: 22px;
