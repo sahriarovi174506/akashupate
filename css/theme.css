@@ -749,6 +749,9 @@ img {
   position: initial !important;
   overflow: hidden;
   transition: 0.3s;
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 .toggle_submenu .mobile_submenu {
   transition: 0.3s;
